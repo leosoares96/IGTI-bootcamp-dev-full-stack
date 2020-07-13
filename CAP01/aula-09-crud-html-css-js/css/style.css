@@ -1,0 +1,17 @@
+ul,li {
+  list-style: none;
+}
+li span{
+  cursor: pointer;
+}
+.button-remove{
+  margin: 5px;
+  padding: 0px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: brown;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+}
