@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Simulator</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="row">
+    <div class="col m6">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Color Simulator</span>
+          <p>Select the RGB range to generate a color:</p>
+
+          <table>
+            <thead>
+              <tr>
+                  <th>Color</th>
+                  <th>Range</th>
+                  <th>Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>(R) Red</td>
+                <td>
+                  <p class="range-field">
+                    <input type="range" max="255" name="rangeRed" id="rangeRed"></td>
+                  </p>
+                <td>
+                  <input type="text" name="numberRed" id="numberRed" disabled>
+                </td>
+              </tr>
+              <tr>
+                <td>(G) Green</td>
+                <td>
+                  <p class="range-field">
+                    <input type="range" max="255" name="rangeGreen" id="rangeGreen"></td>
+                  </p>
+                <td>
+                  <input type="text" name="numberGreen" id="numberGreen" disabled>
+                </td>
+              </tr>
+              <tr>
+                <td>(B) Blue</td>
+                <td>
+                  <p class="range-field">
+                    <input type="range" max="255" name="rangeBlue" id="rangeBlue"></td>
+                  </p>
+                <td>
+                  <input type="text" name="numberBlue" id="numberBlue" disabled>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <p>Color:</p>
+          <div id="boxColor"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
