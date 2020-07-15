@@ -17,7 +17,8 @@ function start(){
     
     var boxColor = document.querySelector('#boxColor');
     var body = document.querySelector('body');
-    boxColor.style.background = `rgb(${numberRed.value},${numberGreen.value},${numberBlue.value})`;
+    boxColor.style.background = `rgb(${numberRed.value},${numberGreen.value},${numberBlue.value})`
+    body.style.background = `rgb(${numberRed.value},${numberGreen.value},${numberBlue.value})`
   }
 }
 
