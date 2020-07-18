@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+#countries,
+#selectedCountries {
+  background-color: #f3f3f3;
+  color: #333;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 400px;
+  height: 600px;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 20px;
+}
+.listCountries {
+  height: 450px;
+  overflow: auto;
+  list-style: none;
+}
+.listCountries li {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.listCountries button {
+  width: 32px;
+  height: 32px;
+  background-color: #0f0;
+  cursor: pointer;
+  border: solid 1px #333;
+}
+.listCountries img {
+  width: 32px;
+  height: 32px;
+  margin: 10px 10px;
+  border-radius: 50%;
+}
+.listCountries .dataCountry {
+  text-align: left;
+}
+.listCountries .dataCountry h4,
+.listCountries .dataCountry p {
+  padding: 0px;
+}
+
+h2,
+p {
+  padding: 10px;
+}
