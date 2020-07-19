@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #303030;
+  color: #fff;
+}
+input {
+  color: #fff;
+}
+.title {
+  text-align: center;
+  font-size: 3rem;
+}
+.subTitle {
+  text-align: left;
+  font-size: 2rem;
+}
+#listUsers {
+  list-style: none;
+  height: 500px;
+  flex-wrap: wrap;
+  display: flex;
+}
+#listUsers li {
+  width: 20%;
+  height: 130px;
+  padding: 10px;
+  text-align: center;
+  background-color: #424242;
+  border: solid 1px rgba(255, 255, 255, 0.12);
+  align-items: center;
+}
+#listUsers li img {
+  width: calc(100% - 10px);
+  border-radius: 5%;
+}

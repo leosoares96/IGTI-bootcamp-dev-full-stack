@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1 class="title">Pesquisa de usuários</h1>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <div class="input-field col s12">
+            <input type="text" id="search-input" class="autocomplete" />
+            <label for="search-input">Digite o nome do usuário:</label>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m8">
+          <h2 id="totalUsers"></h2>
+          <ul id="listUsers"></ul>
+        </div>
+        <div class="col m4">
+          <h2 class="subTitle">Estatísticas</h2>
+          <ul id="listStatistics"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
