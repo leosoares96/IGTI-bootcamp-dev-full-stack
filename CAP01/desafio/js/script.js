@@ -27,10 +27,10 @@ const filterUsers = async (event) => {
     return user.name.toLowerCase().includes(filter);
   });
 
-  if (event.key === 'Enter') {
-    listUsers(usersFilted);
-    listStatistics(usersFilted);
-  }
+  //if (event.key === 'Enter') {
+  listUsers(usersFilted);
+  listStatistics(usersFilted);
+  //}
 };
 
 const getUser = async () => {
