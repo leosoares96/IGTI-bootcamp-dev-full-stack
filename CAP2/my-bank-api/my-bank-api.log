@@ -1,0 +1,72 @@
+2020-08-06T02:39:35.020Z [my-bank-api] info: API Started!
+2020-08-06T02:40:38.394Z [my-bank-api] info: API Started!
+2020-08-06T02:40:53.504Z [my-bank-api] info: API Started!
+2020-08-06T02:41:07.199Z [my-bank-api] info: API Started!
+2020-08-06T02:41:16.022Z [my-bank-api] info: API Started!
+2020-08-06T02:41:39.552Z [my-bank-api] info: API Started and File Created!
+2020-08-06T02:42:32.335Z [my-bank-api] info: API Started!
+2020-08-06T02:42:57.149Z [my-bank-api] info: API Started!
+2020-08-06T02:43:09.245Z [my-bank-api] info: API Started!
+2020-08-06T02:43:52.425Z [my-bank-api] info: API Started!
+2020-08-06T02:43:57.058Z [my-bank-api] info: API Started!
+2020-08-06T02:45:11.006Z [my-bank-api] info: API Started and File Created!
+2020-08-06T02:46:40.488Z [my-bank-api] info: API Started and File Created!
+2020-08-06T02:47:39.280Z [my-bank-api] info: API Started and File Created!
+2020-08-06T02:47:48.461Z [my-bank-api] error: GET undefined - ENOENT: no such file or directory, open 'accounts.json'
+2020-08-06T02:48:18.610Z [my-bank-api] info: API Started and File Created!
+2020-08-06T02:49:30.696Z [my-bank-api] info: API Started!
+2020-08-06T02:49:47.350Z [my-bank-api] info: API Started!
+2020-08-06T02:50:04.867Z [my-bank-api] info: API Started!
+2020-08-06T02:50:12.616Z [my-bank-api] info: API Started!
+2020-08-06T02:51:15.275Z [my-bank-api] info: API Started!
+2020-08-06T02:51:23.884Z [my-bank-api] info: API Started!
+2020-08-06T02:54:12.303Z [my-bank-api] info: API Started!
+2020-08-06T02:54:20.812Z [my-bank-api] info: API Started!
+2020-08-06T02:54:34.250Z [my-bank-api] info: POST /account - {"id":1,"nome":"teste NOVO","balance":200}
+2020-08-06T02:54:37.075Z [my-bank-api] info: GET /account
+2020-08-06T02:55:07.282Z [my-bank-api] info: PUT /account - {"id":1,"nome":"teste NOVO","balance":500}
+2020-08-06T02:55:27.653Z [my-bank-api] info: PATCH /account/updateBalance - {"id":1,"balance":100}
+2020-08-06T02:55:38.782Z [my-bank-api] info: GET /account/:id
+2020-08-06T02:55:44.792Z [my-bank-api] info: GET /account/:id
+2020-08-06T02:55:49.320Z [my-bank-api] info: DELETE /account - 1
+2020-08-06T03:00:19.756Z [my-bank-api] info: API Started!
+2020-08-06T03:00:36.819Z [my-bank-api] error: POST undefined - Name e Balance são obrigatorios
+2020-08-06T03:01:08.199Z [my-bank-api] info: API Started!
+2020-08-06T03:02:15.194Z [my-bank-api] info: API Started!
+2020-08-06T03:02:22.855Z [my-bank-api] error: POST undefined - Name e Balance são obrigatorios
+2020-08-06T03:02:30.097Z [my-bank-api] error: POST undefined - Name e Balance são obrigatorios
+2020-08-06T03:02:41.722Z [my-bank-api] info: API Started!
+2020-08-06T03:02:43.943Z [my-bank-api] error: POST undefined - Name e Balance são obrigatorios
+2020-08-06T03:02:47.638Z [my-bank-api] info: POST /account - {"id":2,"balance":1}
+2020-08-06T03:03:04.784Z [my-bank-api] info: API Started!
+2020-08-06T03:03:09.190Z [my-bank-api] error: POST undefined - Name e Balance são obrigatorios
+2020-08-06T03:03:18.244Z [my-bank-api] info: API Started!
+2020-08-06T03:03:38.661Z [my-bank-api] error: POST undefined - Name e Balance são obrigatorios
+2020-08-06T03:03:42.654Z [my-bank-api] error: POST undefined - Name e Balance são obrigatorios
+2020-08-06T03:03:46.626Z [my-bank-api] info: POST /account - {"id":3,"name":"teste NOVO","balance":1}
+2020-08-06T03:03:55.869Z [my-bank-api] error: POST undefined - Name e Balance são obrigatorios
+2020-08-06T03:04:01.352Z [my-bank-api] info: API Started!
+2020-08-06T03:04:02.729Z [my-bank-api] error: POST undefined - Name e Balance são obrigatorios
+2020-08-06T03:04:11.864Z [my-bank-api] error: POST undefined - Name e Balance são obrigatorios
+2020-08-06T03:04:28.464Z [my-bank-api] info: API Started!
+2020-08-06T03:04:29.660Z [my-bank-api] info: POST /account - {"id":4,"name":"teste NOVO","balance":0}
+2020-08-06T03:07:21.458Z [my-bank-api] info: API Started!
+2020-08-06T03:07:34.859Z [my-bank-api] error: PUT undefined - Registro não encontrado
+2020-08-06T03:07:38.451Z [my-bank-api] info: GET /account
+2020-08-06T03:07:44.161Z [my-bank-api] info: PUT /account - {"id":2,"nome":"teste NOVO","balance":500}
+2020-08-06T03:08:02.667Z [my-bank-api] info: API Started!
+2020-08-06T03:08:06.772Z [my-bank-api] info: API Started!
+2020-08-06T03:08:39.773Z [my-bank-api] info: API Started!
+2020-08-06T03:08:51.854Z [my-bank-api] error: PUT undefined - Name e Balance são obrigatorios
+2020-08-06T03:08:56.320Z [my-bank-api] info: PUT /account - {"id":2,"name":"teste NOVO","balance":100,"xablau":500}
+2020-08-06T03:09:00.853Z [my-bank-api] info: PUT /account - {"id":2,"name":"teste NOVO","balance":100,"xablau":500}
+2020-08-06T03:09:47.496Z [my-bank-api] info: API Started!
+2020-08-06T03:10:12.254Z [my-bank-api] info: API Started!
+2020-08-06T03:10:37.138Z [my-bank-api] info: API Started!
+2020-08-06T03:10:39.092Z [my-bank-api] info: API Started!
+2020-08-06T21:28:50.245Z [my-bank-api] info: API Started!
+2020-08-06T21:28:57.848Z [my-bank-api] info: API Started!
+2020-08-06T21:29:22.423Z [my-bank-api] info: API Started!
+2020-08-06T21:30:02.127Z [my-bank-api] info: API Started!
+2020-08-06T21:51:24.858Z [my-bank-api] info: API Started!
+2020-08-06T21:52:04.831Z [my-bank-api] info: API Started!
