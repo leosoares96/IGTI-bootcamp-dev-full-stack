@@ -84,6 +84,12 @@ function calculateDiscountIRPF(baseIRPF) {
 
   return discountIRPF;
 }
+function calcPercentual(value, base) {
+  if (value === 0 || base === 0) {
+    return 0;
+  }
+  return ((value / base) * 100).toFixed(2);
+}
 
 function calculateSalaryFrom(fullSalary) {
   const baseINSS = +fullSalary;
@@ -96,10 +102,10 @@ function calculateSalaryFrom(fullSalary) {
 
   return {
     baseINSS,
-    discountINSS,
+    discountINSS: `${discountINSS} (${calcPercentual(discountINSS, baseINSS)})`,
     baseIRPF,
-    discountIRPF,
-    netSalary,
+    discountIRPF: `${discountIRPF} (${calcPercentual(discountIRPF, baseINSS)})`,
+    netSalary: `${netSalary} (${calcPercentual(netSalary, baseINSS)})`,
   };
 }
 
