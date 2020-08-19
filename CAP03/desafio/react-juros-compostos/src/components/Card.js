@@ -1,5 +1,6 @@
 import React from 'react';
 import css from './card.module.css';
+import { formatNumber } from '../helpers/calcs';
 
 export default function Card(props) {
   const { index, acc, dif, perc } = props;
@@ -17,7 +18,7 @@ export default function Card(props) {
                 : 'deep-orange-text text-darken-3'
             }
           >
-            {acc}
+            {formatNumber(acc)}
           </span>
           <span
             className={
@@ -26,7 +27,7 @@ export default function Card(props) {
                 : 'deep-orange-text text-darken-3'
             }
           >
-            {dif}
+            {formatNumber(dif)}
           </span>
           <span
             className={
@@ -35,7 +36,7 @@ export default function Card(props) {
                 : 'deep-orange-text text-darken-3'
             }
           >
-            {perc}
+            {perc}%
           </span>
         </div>
       </div>

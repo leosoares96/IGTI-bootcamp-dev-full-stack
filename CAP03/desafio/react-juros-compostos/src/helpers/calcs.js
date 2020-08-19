@@ -17,4 +17,11 @@ const calcPerc = (dif, total) => {
   return ((dif / total) * 100).toFixed(2);
 };
 
-export { applyRate, calcDif, calcPerc };
+const formatNumber = (value) => {
+  return Intl.NumberFormat('pt-br', {
+    style: 'currency',
+    currency: 'BRL',
+  }).format(value);
+};
+
+export { applyRate, calcDif, calcPerc, formatNumber };
