@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Input from './components/Input';
+import Chart from './components/Chart';
 import Card from './components/Card';
 import { applyRate, calcDif, calcPerc } from './helpers/calcs';
 
@@ -60,6 +61,10 @@ function App() {
           step={1}
           onChangeInput={setPeriod}
         />
+      </div>
+
+      <div className="row">
+        <Chart calcs={calcs} />
       </div>
       <div className="row">
         {calcs.map((item) => {
